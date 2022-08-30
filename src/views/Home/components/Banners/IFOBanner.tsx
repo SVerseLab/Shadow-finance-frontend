@@ -46,8 +46,8 @@ const PerpetualBanner = () => {
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>{t('Tokens Listing')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('Apply For Token Listing')}</Header>
+          <S.StyledSubheading>{t('Farm/Pool Listing')}</S.StyledSubheading>
+          <Header width={['160px', '160px', 'auto']}>{t('Apply For Farm/Pool Listing')}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">

@@ -13,7 +13,6 @@ import useTheme from 'hooks/useTheme'
 import QuestionHelper from '../../QuestionHelper'
 import TransactionSettings from './TransactionSettings'
 import ExpertModal from './ExpertModal'
-
 import { SettingsMode } from './types'
 
 const ScrollableContainer = styled(Flex)`
