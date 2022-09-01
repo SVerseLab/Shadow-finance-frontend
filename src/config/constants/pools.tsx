@@ -73,18 +73,18 @@ export const livePools: SerializedPoolConfig[] = [
 
 // known finished pools
 const finishedPools = [
-  {
-    sousId: 285,
-    stakingToken: serializedTokens.cake,
-    earningToken: serializedTokens.sdao,
-    contractAddress: {
-      56: '0x168eF2e470bfeAEB32BE52FB218A41483904851c',
-      97: '',
-    },
-    poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '0.405',
-    version: 3,
-  },
+  // {
+  //   sousId: 285,
+  //   stakingToken: serializedTokens.cake,
+  //   earningToken: serializedTokens.sdao,
+  //   contractAddress: {
+  //     56: '0x168eF2e470bfeAEB32BE52FB218A41483904851c',
+  //     97: '',
+  //   },
+  //   poolCategory: PoolCategory.CORE,
+  //   tokenPerBlock: '0.405',
+  //   version: 3,
+  // },
 ].map((p) => ({ ...p, isFinished: true }))
 
 export default [...livePools, ...finishedPools]
