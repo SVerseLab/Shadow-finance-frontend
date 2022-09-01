@@ -176,7 +176,7 @@
       "address": "0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf",
       "chainId": 1115,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
+      "logoURI": "http://shadowswap.netlify.app/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
     }
   ]
 }
