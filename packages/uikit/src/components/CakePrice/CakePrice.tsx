@@ -27,7 +27,7 @@ const PriceLink = styled.a`
 const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle", showSkeleton = true }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="http://localhost:3000/swap?outputCurrency=0xa48496B0a392007eA9E0354cc804D98444Ecc227"
+      href="http://shadowswap.netlify.app/swap?outputCurrency=0xa48496B0a392007eA9E0354cc804D98444Ecc227&chainId=1115"
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />

@@ -77,7 +77,7 @@ function MyApp(props: AppProps) {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ShadowSwap -#1 DeFi exchange on Core Chain" />
-        <title>PancakeSwap</title>
+        <title>ShadowSwap</title>
         {(Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts
           <script src="https://public.bnbstatic.com/static/js/mp-webview-sdk/webview-v1.0.0.min.js" id="mp-webview" />

@@ -13,8 +13,6 @@ import {
 } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 // import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { perpLangMap } from 'utils/getPerpetualLanguageCode'
-import { perpTheme } from 'utils/getPerpetualTheme'
 import { DropdownMenuItems } from '@pancakeswap/uikit/src/components/DropdownMenu/types'
 import { ChainId } from '@pancakeswap/sdk'
 
@@ -46,8 +44,8 @@ const config: (
           href: '/swap',
         },
         {
-          label: t('Core Sales'),
-          href: '/limit-orders',
+          label: t('Core Curve'),
+          href: '/404',
           supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
         },
         {
@@ -56,9 +54,7 @@ const config: (
         },
         {
           label: t('Bridge'),
-          href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
-            isDark,
-          )}`,
+          href: `404`,
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         // {
@@ -163,7 +159,7 @@ const config: (
         },
         {
           label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          href: '404',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ],
