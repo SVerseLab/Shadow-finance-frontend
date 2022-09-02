@@ -11,27 +11,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         isHighlighted: true,
       },
       {
-        label: t('Brand'),
-        href: 'https://docs.pancakeswap.finance/brand',
-      },
-      {
         label: t('Blog'),
-        href: 'https://medium.com/pancakeswap',
+        href: 'https://medium.com/shadowswap',
       },
       {
-        label: t('Community'),
-        href: 'https://docs.pancakeswap.finance/contact-us/telegram',
-      },
-      {
-        label: t('Litepaper'),
-        href: 'https://v2litepaper.pancakeswap.finance/',
-      },
-      {
-        label: '—',
-      },
-      {
-        label: t('Online Store'),
-        href: 'https://pancakeswap.creator-spring.com/',
+        label: t('CoreDao'),
+        href: 'https://coredao.org/',
       },
     ],
   },
@@ -39,16 +24,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     label: t('Help'),
     items: [
       {
-        label: t('Customer Support'),
-        href: 'https://docs.pancakeswap.finance/contact-us/customer-support',
-      },
-      {
-        label: t('Troubleshooting'),
-        href: 'https://docs.pancakeswap.finance/help/troubleshooting',
-      },
-      {
         label: t('Guides'),
         href: 'https://docs.pancakeswap.finance/get-started',
+      },
+      {
+        label: t('Getting Started with Core'),
+        href: 'https://core-documents.notion.site/User-Guide-for-Core-TestNet-c1e9162fe33a440daa5718ccad580eef',
       },
     ],
   },
@@ -64,15 +45,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://docs.pancakeswap.finance',
       },
       {
-        label: t('Bug Bounty'),
-        href: 'https://docs.pancakeswap.finance/code/bug-bounty',
+        label: t('Core Network Docs'),
+        href: 'https://docs.coredao.org/core-white-paper-v1.0.5/',
       },
       {
-        label: t('Audits'),
-        href: 'https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited',
-      },
-      {
-        label: t('Careers'),
+        label: t('Sverse Lab'),
         href: 'https://docs.pancakeswap.finance/hiring/become-a-chef',
       },
     ],
