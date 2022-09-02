@@ -7,12 +7,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://docs.shadowswap.xyz/contact-us',
         isHighlighted: true,
       },
       {
         label: t('Blog'),
-        href: 'https://medium.com/shadowswap',
+        href: 'https://medium.com/@shadowswap',
       },
       {
         label: t('CoreDao'),
@@ -25,7 +25,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Guides'),
-        href: 'https://docs.pancakeswap.finance/get-started',
+        href: 'https://docs.shadowswap.xyz/get-started',
       },
       {
         label: t('Getting Started with Core'),
@@ -38,11 +38,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/shadowswap',
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.shadowswap.xyz',
       },
       {
         label: t('Core Network Docs'),
@@ -50,7 +50,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Sverse Lab'),
-        href: 'https://docs.pancakeswap.finance/hiring/become-a-chef',
+        href: 'https://docs.shadowswap.xyz/hiring/join-the-shadow-devs',
       },
     ],
   },

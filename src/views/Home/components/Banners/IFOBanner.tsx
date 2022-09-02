@@ -38,7 +38,7 @@ const PerpetualBanner = () => {
   const { isDark } = useTheme()
 
   const perpetualUrl = useMemo(
-    () => `https://perp.pancakeswap.finance/${perpLangMap(code)}/futures/BTCUSDT?theme=${perpTheme(isDark)}`,
+    () => `https://shadowswap.xyz/${perpLangMap(code)}/apply?theme=${perpTheme(isDark)}`,
     [code, isDark],
   )
 

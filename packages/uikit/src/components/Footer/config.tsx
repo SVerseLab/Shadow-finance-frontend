@@ -48,7 +48,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/Shadowswap_xyz",
   },
   {
     label: "Telegram",
@@ -63,17 +63,17 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/shadowswap/",
   },
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.gg/shadowswap",
   },
   {
     label: "Medium",
     icon: MediumIcon,
-    href: "https://medium.com/pancakeswap",
+    href: "https://medium.com/@shadowswap",
   },
 ];
 
