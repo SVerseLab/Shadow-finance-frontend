@@ -62,7 +62,7 @@ const Grid = styled.div`
   }
 `
 
-const emissionsPerBlock = 13.75
+const emissionsPerBlock = 5.5
 
 /**
  * User (Planet Finance) built a contract on top of our original manual CAKE pool,
@@ -149,7 +149,7 @@ const CakeDataRow = () => {
       <StyledColumn noMobileBorder style={{ gridArea: 'c' }}>
         <Text color="textSubtle">{t('Max Supply')}</Text>
 
-        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={500000000} />
+        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={300000000} />
       </StyledColumn>
       <StyledColumn noDesktopBorder style={{ gridArea: 'd' }}>
         <Text color="textSubtle">{t('Market cap')}</Text>
