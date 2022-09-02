@@ -91,7 +91,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://shadowswap.netlify.app/swap?outputCurrency=0xa48496B0a392007eA9E0354cc804D98444Ecc227"
+              href="https://shadowswap.netlify.app/swap?outputCurrency=0xa48496B0a392007eA9E0354cc804D98444Ecc227&chainId=1115"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
