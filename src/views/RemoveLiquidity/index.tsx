@@ -260,7 +260,7 @@ export default function RemoveLiquidity() {
     let methodName
     let args
     if (oneCurrencyIsBNB && tokenToReceive.toLowerCase() === WNATIVE[chainId].address.toLowerCase()) {
-      methodName = 'zapOutCORE'
+      methodName = 'zapOutBNB'
       args = [
         pair.liquidityToken.address,
         parsedAmounts[Field.LIQUIDITY].raw.toString(),
