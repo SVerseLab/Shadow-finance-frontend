@@ -10,6 +10,6 @@ describe('utils/tryParseAmount', () => {
   })
 
   it('should pared value', () => {
-    expect(tryParseAmount('100', bscTestnetTokens.cake)).toBeTruthy()
+    expect(tryParseAmount('100', bscTestnetTokens.shdw)).toBeTruthy()
   })
 })

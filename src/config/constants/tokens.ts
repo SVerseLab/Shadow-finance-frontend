@@ -9,7 +9,7 @@ const CAKE_MAINNET = new Token(
   'https://pancakeswap.finance/',
 )
 
-const CAKE_TESTNET = new Token(
+const SHDW_TESTNET = new Token(
   ChainId.BSC_TESTNET,
   '0xa48496B0a392007eA9E0354cc804D98444Ecc227',
   18,
@@ -27,7 +27,7 @@ const USDC_BSC = new Token(
   'https://www.centre.io/usdc',
 )
 
-const USDC_TESTNET = new Token(
+const CUSD_TESTNET = new Token(
   ChainId.BSC_TESTNET,
   '0x64544969ed7EBf5f083679233325356EbE738930',
   18,
@@ -38,12 +38,12 @@ const USDC_TESTNET = new Token(
 
 export const USDC = {
   [ChainId.BSC]: USDC_BSC,
-  [ChainId.BSC_TESTNET]: USDC_TESTNET,
+  [ChainId.BSC_TESTNET]: CUSD_TESTNET,
 }
 
 export const CAKE = {
   [ChainId.BSC]: CAKE_MAINNET,
-  [ChainId.BSC_TESTNET]: CAKE_TESTNET,
+  [ChainId.BSC_TESTNET]: SHDW_TESTNET,
 }
 
 const BUSD_MAINNET = new Token(
@@ -55,18 +55,18 @@ const BUSD_MAINNET = new Token(
   'https://www.paxos.com/busd/',
 )
 
-const BUSD_TESTNET = new Token(
+const USDC_TESTNET = new Token(
   ChainId.BSC_TESTNET,
   '0xD874e58641862aFA37d5d1169D86C4fca465f3B2',
   18,
-  'BUSD',
-  'Binance USD',
+  'sUSDC',
+  'CORE USD',
   'https://www.paxos.com/busd/',
 )
 
 export const BUSD: Record<ChainId, Token> = {
   [ChainId.BSC]: BUSD_MAINNET,
-  [ChainId.BSC_TESTNET]: BUSD_TESTNET,
+  [ChainId.BSC_TESTNET]: USDC_TESTNET,
 }
 
 export const bscTokens = {
@@ -2334,8 +2334,8 @@ export const bscTokens = {
 
 export const bscTestnetTokens = {
   wbnb: WtCORE[ChainId.BSC_TESTNET],
-  cake: CAKE_TESTNET,
-  cusd: USDC_TESTNET,
+  shdw: SHDW_TESTNET,
+  usdc: USDC_TESTNET,
   syrup: new Token(
     ChainId.BSC_TESTNET,
     '0xb4e4127551265ff0f3b6C98e591520E6eEff3F39',
