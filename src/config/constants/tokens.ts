@@ -2335,7 +2335,7 @@ export const bscTokens = {
 export const bscTestnetTokens = {
   wbnb: WtCORE[ChainId.BSC_TESTNET],
   cake: CAKE_TESTNET,
-  busd: BUSD_TESTNET,
+  cusd: USDC_TESTNET,
   syrup: new Token(
     ChainId.BSC_TESTNET,
     '0xb4e4127551265ff0f3b6C98e591520E6eEff3F39',
