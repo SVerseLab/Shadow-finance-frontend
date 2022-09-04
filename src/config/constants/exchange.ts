@@ -19,7 +19,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     bscTokens.eth,
     bscTokens.usdc,
   ],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.cusd],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.usdc],
 }
 
 /**
@@ -42,13 +42,13 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.busd, bscTokens.cake, bscTokens.btcb],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.cusd],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.usdc],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.cusd],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.shdw, bscTestnetTokens.usdc],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
