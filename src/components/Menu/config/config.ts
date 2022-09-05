@@ -3,8 +3,8 @@ import {
   DropdownMenuItemType,
   SwapIcon,
   SwapFillIcon,
-  EarnFillIcon,
-  EarnIcon,
+  // EarnFillIcon,
+  // EarnIcon,
   // TrophyIcon,
   // TrophyFillIcon,
   // NftIcon,
@@ -63,23 +63,23 @@ const config: (
         // },
       ].filter((item) => filterItemBySupportChainId(item, chainId)),
     },
-    {
-      label: t('Earn'),
-      href: '/farms',
-      icon: EarnIcon,
-      fillIcon: EarnFillIcon,
-      supportChainIds: [ChainId.BSC],
-      items: [
-        {
-          label: t('Farms'),
-          href: '/farms',
-        },
-        {
-          label: t('Pools'),
-          href: '/pools',
-        },
-      ],
-    },
+    // {
+    //   label: t('Earn'),
+    //   href: '/farms',
+    //   icon: EarnIcon,
+    //   fillIcon: EarnFillIcon,
+    //   supportChainIds: [ChainId.BSC],
+    //   items: [
+    //     {
+    //       label: t('Farms'),
+    //       href: '/farms',
+    //     },
+    //     {
+    //       label: t('Pools'),
+    //       href: '/pools',
+    //     },
+    //   ],
+    // },
     // {
     //   label: t('Win'),
     //   href: '/prediction',
@@ -134,10 +134,10 @@ const config: (
       hideSubNav: true,
       supportChainIds: [ChainId.BSC],
       items: [
-        {
-          label: t('Info'),
-          href: '/info',
-        },
+        // {
+        //   label: t('Info'),
+        //   href: '/info',
+        // },
         // {
         //   label: t('IFO'),
         //   href: '/ifo',
