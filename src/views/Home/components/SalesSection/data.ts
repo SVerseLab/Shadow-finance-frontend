@@ -20,7 +20,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'ETH', alt: t('ETH token') },
       { src: 'BTC', alt: t('BTC token') },
-      { src: 'CAKE', alt: t('CAKE token') },
+      { src: 'SHDW', alt: t('SHDW token') },
     ],
   },
 })
@@ -67,7 +67,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'star-bottom-right', alt: t('Small 3d star') },
       { src: 'star-top-right', alt: t('Small 3d star') },
-      { src: 'coin', alt: t('CAKE token') },
+      { src: 'shdwcoin', alt: t('SHDW token') },
       { src: 'star-top-left', alt: t('Small 3d star') },
     ],
   },
