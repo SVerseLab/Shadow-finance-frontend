@@ -18,7 +18,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
   images: {
     path: '/images/home/trade/',
     attributes: [
-      { src: 'BNB', alt: t('BNB token') },
+      { src: 'ETH', alt: t('ETH token') },
       { src: 'BTC', alt: t('BTC token') },
       { src: 'CAKE', alt: t('CAKE token') },
     ],
@@ -57,7 +57,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.shadowswap.xyz/tokenomics/cake',
+    to: 'https://docs.shadowswap.xyz/tokenomics/shadow',
     text: t('Learn'),
     external: true,
   },
@@ -65,10 +65,10 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   images: {
     path: '/images/home/cake/',
     attributes: [
-      { src: 'bottom-right', alt: t('Small 3d pancake') },
-      { src: 'top-right', alt: t('Small 3d pancake') },
+      { src: 'star-bottom-right', alt: t('Small 3d star') },
+      { src: 'star-top-right', alt: t('Small 3d star') },
       { src: 'coin', alt: t('CAKE token') },
-      { src: 'top-left', alt: t('Small 3d pancake') },
+      { src: 'star-top-left', alt: t('Small 3d star') },
     ],
   },
 })
