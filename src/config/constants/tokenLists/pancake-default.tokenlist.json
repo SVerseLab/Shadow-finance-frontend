@@ -67,8 +67,8 @@
       "logoURI": "https://raw.githubusercontent.com/SVerseLab/Shadow-finance-frontend/Main/public/images/tokens/Shadow.png"
     },
     {
-      "name": "sUSDC Token",
-      "symbol": "sUSDC",
+      "name": "USDC Token",
+      "symbol": "cUSDC",
       "address": "0xD874e58641862aFA37d5d1169D86C4fca465f3B2",
       "chainId": 1115,
       "decimals": 18,
