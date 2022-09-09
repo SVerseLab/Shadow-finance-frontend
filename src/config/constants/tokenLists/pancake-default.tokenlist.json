@@ -8,7 +8,7 @@
   },
   "tags": {},
   "logoURI": "https://shadowswap.netlify.app/logo.png",
-  "keywords": ["pancake", "default"],
+  "keywords": ["shadow", "default"],
   "tokens": [
     {
       "name": "WCORE Token",
@@ -19,24 +19,24 @@
       "logoURI": "http://shadowswap.netlify.app/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
     },
     {
-      "name": "BUSD Token",
-      "symbol": "BUSD",
+      "name": "USDC Token",
+      "symbol": "cUSDC",
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
     },
     {
       "name": "Ethereum Token",
-      "symbol": "ETH",
+      "symbol": "cETH",
       "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
     },
     {
-      "name": "BTCB Token",
-      "symbol": "BTCB",
+      "name": "BTC(Core) Token",
+      "symbol": "cBTC",
       "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
       "chainId": 56,
       "decimals": 18,
@@ -44,7 +44,7 @@
     },
     {
       "name": "Tether USD",
-      "symbol": "USDT",
+      "symbol": "cUSDT",
       "address": "0x55d398326f99059fF775485246999027B3197955",
       "chainId": 56,
       "decimals": 18,
@@ -83,24 +83,24 @@
       "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_eth.svg"
     },
     {
-      "name": "Core BTC Token",
-      "symbol": "sBTC",
+      "name": "BTC(Core) Token",
+      "symbol": "cBTC",
       "address": "0x7028CEF69C028122400D5D0240227DcEA1750848",
       "chainId": 1115,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/14867/thumb/binance-btc_32.png?1618814666"
     },
     {
-      "name": "sDai Token",
-      "symbol": "sDai",
+      "name": "Dai Token",
+      "symbol": "cDai",
       "address": "0xD35899389E5B0ec6E9262E012aC64dD02d2203C2",
       "chainId": 1115,
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734"
     },
     {
-      "name": "sUSDT Token",
-      "symbol": "sUSDT",
+      "name": "USDT Token",
+      "symbol": "cUSDT",
       "address": "0x3786495F5d8a83B7bacD78E2A0c61ca20722Cce3",
       "chainId": 1115,
       "decimals": 6,
