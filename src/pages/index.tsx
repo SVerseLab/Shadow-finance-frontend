@@ -27,8 +27,8 @@ const IndexPage = ({ totalTx30Days, addressCount30Days, tvl }) => {
 }
 
 // Values fetched from TheGraph and BitQuery jan 24, 2022
-const txCount = 14652516
-const addressCount = 608402
+const txCount = 25576608
+const addressCount = 781402
 
 const tvl = 42436228.115718
 

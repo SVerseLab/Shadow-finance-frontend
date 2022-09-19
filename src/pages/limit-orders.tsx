@@ -1,7 +1,3 @@
-import LimitOrders from '../views/LimitOrders'
+import NotFound from '../views/NotFound'
 
-const LimitOrdersPage = () => {
-  return <LimitOrders />
-}
-
-export default LimitOrdersPage
+export default NotFound

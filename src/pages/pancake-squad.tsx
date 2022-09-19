@@ -1,3 +1,3 @@
-import PancakeSquad from '../views/PancakeSquad'
+import NotFound from '../views/NotFound'
 
-export default PancakeSquad
+export default NotFound

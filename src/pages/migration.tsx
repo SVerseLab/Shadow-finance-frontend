@@ -1,3 +1,3 @@
-import Migration from '../views/Migration'
+import NotFound from '../views/NotFound'
 
-export default Migration
+export default NotFound

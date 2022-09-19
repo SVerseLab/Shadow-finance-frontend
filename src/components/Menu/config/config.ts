@@ -44,17 +44,12 @@ const config: (
           href: '/swap',
         },
         {
-          label: t('Core Curve'),
-          href: '/404',
-          supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
-        },
-        {
           label: t('Liquidity'),
           href: '/liquidity',
         },
         {
-          label: t('Bridge'),
-          href: `404`,
+          label: t('Core Curve'),
+          href: 'https://coredao.org/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         // {
@@ -159,7 +154,7 @@ const config: (
         },
         {
           label: t('Docs'),
-          href: '404',
+          href: 'docs.shadowswap.xyz',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ],

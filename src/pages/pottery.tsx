@@ -1,3 +1,3 @@
-import Pottery from '../views/Pottery'
+import NotFound from '../views/NotFound'
 
-export default Pottery
+export default NotFound

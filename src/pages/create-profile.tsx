@@ -1,3 +1,3 @@
-import ProfileCreation from '../views/ProfileCreation'
+import NotFound from '../views/NotFound'
 
-export default ProfileCreation
+export default NotFound
