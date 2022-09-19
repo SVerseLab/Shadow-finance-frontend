@@ -121,6 +121,7 @@ const Hero = () => {
             <NextLinkFromReactRouter to="/swap">
               <Button variant={!account ? 'secondary' : 'primary'}>{t('Trade Now')}</Button>
             </NextLinkFromReactRouter>
+            <Button variant={!account ? 'secondary' : 'primary'}>{t('NFT AMM')}</Button>
           </Flex>
         </Flex>
         <Flex
