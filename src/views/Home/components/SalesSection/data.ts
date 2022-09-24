@@ -20,8 +20,30 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'ETH', alt: t('ETH token') },
       { src: 'BTC', alt: t('BTC token') },
-      { src: 'SHDW', alt: t('SHDW token') },
+      { src: 'USD1', alt: t('USD1 token') },
     ],
+  },
+})
+
+export const nftammSectionData = (t: TranslateFunction): SalesSectionProps => ({
+  headingText: t('Introducing A Decentralised NFT Marketplace on Core.'),
+  bodyText: t(
+    'ShadowSwap AMM NFT Marketplace allows users to trade NFTs in Liquidity Pool thereby Fostering More Defi to NFTs.',
+  ),
+  reverse: false,
+  primaryButton: {
+    to: '/NotFound',
+    text: t('Coming Soon'),
+    external: false,
+  },
+  secondaryButton: {
+    to: 'https://shadow-11.gitbook.io/shadowswap/products/amm-nft-marketplace',
+    text: t('Learn More'),
+    external: true,
+  },
+  images: {
+    path: '/images/home/nftamm/',
+    attributes: [{ src: 'NFT', alt: t('NFT Pic') }],
   },
 })
 
@@ -30,7 +52,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   bodyText: t('ShadowSwap makes it easy to make your crypto work for you. Let your Shadows work for you.'),
   reverse: true,
   primaryButton: {
-    to: '/farms',
+    to: '/NotFound',
     text: t('Explore'),
     external: false,
   },

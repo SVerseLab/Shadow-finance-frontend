@@ -37,7 +37,7 @@ const Stats = () => {
         {t('Built on Core Solid Foundation')}
       </Heading>
       <Heading textAlign="center" scale="xl" mb="32px">
-        {t('Surpported By CoreDao.')}
+        {t('Supported By CoreDao.')}
       </Heading>
       <Text textAlign="center" color="textSubtle">
         {t('ShadowSwap is here to help you cast your shadow onto your finance and ease you in the Defi Verse.')}
