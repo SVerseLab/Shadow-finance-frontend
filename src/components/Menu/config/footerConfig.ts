@@ -29,7 +29,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Getting Started with Core'),
-        href: 'https://core-documents.notion.site/User-Guide-for-Core-TestNet-c1e9162fe33a440daa5718ccad580eef',
+        href: 'https://docs.coredao.org/developer',
       },
     ],
   },

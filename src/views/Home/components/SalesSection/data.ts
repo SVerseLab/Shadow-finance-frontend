@@ -28,7 +28,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const nftammSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Introducing A Decentralised NFT Marketplace on Core Network.'),
   bodyText: t(
-    'ShadowSwap AMM NFT Marketplace allows users to trade NFTs in Liquidity Pool thereby Fostering More Defi to NFTs. Changing how users perceive NFTs',
+    'ShadowSwap AMM NFT Marketplace allows users to trade NFTs in Liquidity Pool thereby Fostering More Defi to NFTs. Changing how users perceive NFTs and NFT Trading',
   ),
   reverse: false,
   primaryButton: {
