@@ -90,7 +90,7 @@ const SwitchIconButton = styled(IconButton)`
   }
 `
 
-const CHART_SUPPORT_CHAIN_IDS = [ChainId.BSC, ChainId.BSC_TESTNET]
+const CHART_SUPPORT_CHAIN_IDS = [ChainId.BSC_TESTNET]
 
 export default function Swap() {
   const router = useRouter()
