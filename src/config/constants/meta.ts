@@ -4,9 +4,8 @@ import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
   title: 'ShadowSwap',
-  description:
-    'The #1 AMM Dex on Core! Earn SHDW through yield farming or win it in the Lottery, then stake it in Shadow Pools to earn more tokens! Initial Dex Offerings , NFTs, and more, on a platform you can trust.',
-  image: 'https://pancakeswap.finance/images/hero.png',
+  description: 'The #1 AMM Dex on Core! Trade || Earn || IDO || NFT AMM || all on ShadowSwap on Core Chain.',
+  image: 'https://shadowswap.xyz/images/hero.png',
 }
 
 interface PathList {
@@ -34,8 +33,8 @@ const getPathList = (t: ContextApi['t']): PathList => {
       '/info': { title: t('Overview'), description: 'View statistics for Shadowswap exchanges.' },
       '/info/pools': { title: t('Pools'), description: 'View statistics for Shadowswap exchanges.' },
       '/info/tokens': { title: t('Tokens'), description: 'View statistics for Shadowswap exchanges.' },
-      '/nfts/collections': { basePath: true, title: t('Collections') },
-      '/nfts/activity': { title: t('Activity') },
+      // '/nfts/collections': { basePath: true, title: t('Collections') },
+      // '/nfts/activity': { title: t('Activity') },
     },
     defaultTitleSuffix: t('ShadowSwap'),
   }
