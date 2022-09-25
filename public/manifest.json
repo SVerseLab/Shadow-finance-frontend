@@ -1,8 +1,8 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
-  "homepage_url": "https://pancakeswap.finance",
+  "short_name": "ShadowSwap",
+  "name": "ShadowSwap",
+  "description": "Farm SHDW with Shadow LP Tokens",
+  "homepage_url": "https://shadowswap.xyz",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",
