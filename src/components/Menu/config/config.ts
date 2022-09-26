@@ -53,6 +53,11 @@ const config: (
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
+          label: t('Bridge'),
+          href: 'https://shadowswap.xyz/404',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
           label: t('Core Curve'),
           href: 'https://coredao.org/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
