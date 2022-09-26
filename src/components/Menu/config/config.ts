@@ -48,6 +48,11 @@ const config: (
           href: '/liquidity',
         },
         {
+          label: t('Gnosis Safe'),
+          href: 'https://safe.test.btcs.network/app',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
           label: t('Core Curve'),
           href: 'https://coredao.org/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
