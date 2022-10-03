@@ -67,16 +67,16 @@ function MyApp(props: AppProps) {
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover ShadowSwap, the #1 DEX on Core Chain with the best farms in DeFi and a lottery for SHDW."
+          content="Cheaper and faster than Uniswap? Discover ShadowSwap, the #1 DEX on Core Chain with the best farms in DeFi and a NFT AMM Dex."
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://shadowswap.netlify.app/images/hero.png" />
+        <meta name="twitter:image" content="https://shadowswap.xyz/images/hero.png" />
         <meta
           name="twitter:description"
-          content="The #1 AMM on CORE! Earn SHDW through yield farming or win it in the Lottery, then stake it in Shadow Pools to earn more tokens! Initial Farm Offerings, NFTs, and more, on a platform you can trust."
+          content="The #1 AMM on CORE! Earn SHDW through yield farming, then stake it in Shadow Pools to earn more tokens! Initial Farm Offerings,AMM NFTs, and more, on a platform you can trust."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ShadowSwap -#1 DeFi exchange on Core Chain" />
+        <meta name="twitter:title" content="ShadowSwap -#1 DeFi Exchange on Core Chain" />
         <title>ShadowSwap</title>
         {(Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts

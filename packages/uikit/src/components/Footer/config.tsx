@@ -1,6 +1,6 @@
 import { Language } from "../LangSelector/types";
 import { FooterLinkType } from "./types";
-import { TwitterIcon, TelegramIcon, GithubIcon, DiscordIcon, MediumIcon } from "../Svg";
+import { TwitterIcon, GithubIcon, DiscordIcon, MediumIcon } from "../Svg";
 
 export const footerLinks: FooterLinkType[] = [
   {
@@ -50,16 +50,7 @@ export const socials = [
     icon: TwitterIcon,
     href: "https://twitter.com/Shadowswap_xyz",
   },
-  {
-    label: "Telegram",
-    icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-    ],
-  },
+
   {
     label: "Github",
     icon: GithubIcon,
@@ -68,7 +59,7 @@ export const socials = [
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/shadowswap",
+    href: "https://discord.gg/AgZ9hxZdgc",
   },
   {
     label: "Medium",

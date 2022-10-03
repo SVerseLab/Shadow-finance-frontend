@@ -16,7 +16,7 @@
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://shadowswap.netlify.app/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
+      "logoURI": "http://shadowswap.xyz/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
     },
     {
       "name": "USDC Token",
@@ -56,7 +56,7 @@
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://shadowswap.netlify.app/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://shadowswap.xyz/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "ShadowSwap Token",
@@ -112,7 +112,7 @@
       "address": "0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf",
       "chainId": 1115,
       "decimals": 18,
-      "logoURI": "http://shadowswap.netlify.app/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
+      "logoURI": "http://shadowswap.xyz/images/tokens/0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf.png"
     }
   ]
 }

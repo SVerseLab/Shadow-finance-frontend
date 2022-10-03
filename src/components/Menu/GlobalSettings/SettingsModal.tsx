@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Text, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@pancakeswap/uikit'
 import {
   useExpertModeManager,
-  useSubgraphHealthIndicatorManager,
   useUserExpertModeAcknowledgementShow,
   useUserSingleHopOnly,
   useZapModeManager,
@@ -29,7 +28,6 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
   const [expertMode, toggleExpertMode] = useExpertModeManager()
   const [singleHopOnly, setSingleHopOnly] = useUserSingleHopOnly()
   const [zapMode, toggleZapMode] = useZapModeManager()
-  const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
   const { onChangeRecipient } = useSwapActionHandlers()
 
   const { t } = useTranslation()
@@ -128,26 +126,6 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
             scale="md"
             onChange={() => {
               setSingleHopOnly(!singleHopOnly)
-            }}
-          />
-        </Flex>
-        <Flex justifyContent="space-between" alignItems="center" mb="24px">
-          <Flex alignItems="center">
-            <Text>{t('Subgraph Health Indicator')}</Text>
-            <QuestionHelper
-              text={t(
-                'Turn on NFT market subgraph health indicator all the time. Default is to show the indicator only when the network is delayed',
-              )}
-              placement="top-start"
-              ml="4px"
-            />
-          </Flex>
-          <Toggle
-            id="toggle-subgraph-health-button"
-            checked={subgraphHealth}
-            scale="md"
-            onChange={() => {
-              setSubgraphHealth(!subgraphHealth)
             }}
           />
         </Flex>

@@ -25,7 +25,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Guides'),
-        href: 'https://docs.shadowswap.xyz/get-started',
+        href: 'https://shadow-11.gitbook.io/shadowswap/',
       },
       {
         label: t('Getting Started with Core'),
@@ -42,7 +42,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.shadowswap.xyz',
+        href: 'https://shadow-11.gitbook.io/shadowswap/',
       },
       {
         label: t('Core Network Docs'),

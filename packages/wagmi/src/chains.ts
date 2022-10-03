@@ -80,7 +80,7 @@ const bscExplorer = { name: 'BscScan', url: 'https://bscscan.com' }
 
 export const bsc: Chain = {
   id: 56,
-  name: 'Core Chain Mainet',
+  name: 'Core Chain Mainnet',
   network: 'bsc',
   rpcUrls: {
     default: 'https://binance.nodereal.io',
