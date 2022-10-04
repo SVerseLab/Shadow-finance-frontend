@@ -50,16 +50,16 @@ export const socials = [
     icon: TwitterIcon,
     href: "https://twitter.com/Shadowswap_xyz",
   },
-  {
-    label: "Telegram",
-    icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/shadow",
-      },
-    ],
-  },
+  // {
+  //   label: "Telegram",
+  //   icon: TelegramIcon,
+  //   items: [
+  //     {
+  //       label: "English",
+  //       href: "https://t.me/shadow",
+  //     },
+  //   ],
+  // },
   {
     label: "Github",
     icon: GithubIcon,
