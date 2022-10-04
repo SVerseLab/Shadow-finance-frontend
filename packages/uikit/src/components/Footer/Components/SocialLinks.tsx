@@ -17,11 +17,11 @@ const SocialLinks: React.FC<FlexProps> = ({ ...props }) => (
       const Icon = social.icon;
       const mr = index < socials.length - 1 ? "24px" : 0;
       //@ts-ignore
-      if (social.items) {
+      if ((social as any).items) {
         return (
           <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
             //@ts-ignore
-            {social.items.map((item) => (
+            {(social as any).items.map((item) => (
               <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
                 {item.label}
               </Link>
