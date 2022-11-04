@@ -9,16 +9,18 @@ import MetricsSection from './components/MetricsSection'
 import SalesSection from './components/SalesSection'
 import FarmsPoolsRow from './components/FarmsPoolsRow'
 // import CakeDataRow from './components/CakeDataRow'
-import { InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
+// import { InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
 import MultipleBanner from './components/Banners/MultipleBanner'
+// import CakeDataRow from './components/CakeDataRow'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;
-
+  background-size: cover;
   ${({ theme }) => theme.mediaQueries.md} {
     padding-top: 48px;
   }
 `
+
 const Home: React.FC = () => {
   const { theme } = useTheme()
 
@@ -31,11 +33,7 @@ const Home: React.FC = () => {
       <PageMeta />
       <StyledHeroSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
-        background={
-          theme.isDark
-            ? 'radial-gradient(circle closest-corner at center 50px, #222, black 40%) no-repeat;'
-            : 'linear-gradient(0deg, #E6FDFF 0%, #5c258d 100%)'
-        }
+        background={theme.colors.backgroundImage}
         index={2}
         hasCurvedDivider={false}
       >
@@ -47,6 +45,7 @@ const Home: React.FC = () => {
         containerProps={{
           id: 'home-2',
         }}
+        background={theme.colors.backgroundImage}
         index={2}
         hasCurvedDivider={false}
       >
@@ -54,7 +53,7 @@ const Home: React.FC = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
+        background={theme.colors.backgroundImage}
         index={2}
         hasCurvedDivider={false}
       >
@@ -63,7 +62,7 @@ const Home: React.FC = () => {
 
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
+        background={theme.colors.backgroundImage}
         index={2}
         hasCurvedDivider={false}
       >
@@ -72,21 +71,21 @@ const Home: React.FC = () => {
 
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.gradients.cardHeader}
+        background={theme.colors.backgroundImage}
         index={2}
         hasCurvedDivider={false}
       >
-        <OuterWedgeWrapper>
+        {/* <OuterWedgeWrapper>
           <InnerWedgeWrapper width="150%" top fill={theme.colors.background}>
             <WedgeTopRight />
           </InnerWedgeWrapper>
-        </OuterWedgeWrapper>
+        </OuterWedgeWrapper> */}
         <SalesSection {...earnSectionData(t)} />
         <FarmsPoolsRow />
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
+        background={theme.colors.shdwback}
         index={2}
         hasCurvedDivider={false}
       >

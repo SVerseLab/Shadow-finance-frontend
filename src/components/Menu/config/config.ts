@@ -3,8 +3,8 @@ import {
   DropdownMenuItemType,
   SwapIcon,
   SwapFillIcon,
-  // EarnFillIcon,
-  // EarnIcon,
+  EarnFillIcon,
+  EarnIcon,
   // TrophyIcon,
   // TrophyFillIcon,
   // NftIcon,
@@ -23,6 +23,19 @@ export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: 
 
 const filterItemBySupportChainId = (item, chainId) => {
   return !chainId || !item.supportChainIds ? true : item.supportChainIds?.includes(chainId)
+}
+
+const addMenuItemSupported = (item, chainId) => {
+  if (!chainId || !item.supportChainIds) {
+    return item
+  }
+  if (item.supportChainIds?.includes(chainId)) {
+    return item
+  }
+  return {
+    ...item,
+    disabled: true,
+  }
 }
 
 const config: (
@@ -57,34 +70,31 @@ const config: (
           href: 'https://shadowswap.xyz/404',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        {
-          label: t('Core Curve'),
-          href: 'https://coredao.org/',
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
-        // {
-        //   label: t('Transfer'),
-        //   href: '/transfer',
-        // },
       ].filter((item) => filterItemBySupportChainId(item, chainId)),
     },
-    // {
-    //   label: t('Earn'),
-    //   href: '/farms',
-    //   icon: EarnIcon,
-    //   fillIcon: EarnFillIcon,
-    //   supportChainIds: [ChainId.BSC],
-    //   items: [
-    //     {
-    //       label: t('Farms'),
-    //       href: '/farms',
-    //     },
-    //     {
-    //       label: t('Pools'),
-    //       href: '/pools',
-    //     },
-    //   ],
-    // },
+    {
+      label: t('Earn'),
+      href: '/farms',
+      icon: EarnIcon,
+      fillIcon: EarnFillIcon,
+      supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
+      status: { text: t('Mainnet'), color: 'warning' },
+      disabled: true,
+      items: [
+        {
+          label: t('Farms'),
+          href: '/farms',
+          disabled: true,
+          status: { text: t('Mainnet'), color: 'warning' },
+        },
+        {
+          label: t('Pools'),
+          href: '/pools',
+          disabled: true,
+          status: { text: t('Mainnet'), color: 'warning' },
+        },
+      ].map((item) => addMenuItemSupported(item, chainId)),
+    },
     // {
     //   label: t('Win'),
     //   href: '/prediction',
@@ -139,18 +149,24 @@ const config: (
       hideSubNav: true,
       supportChainIds: [ChainId.BSC, ChainId.BSC_TESTNET],
       items: [
-        // {
-        //   label: t('Info'),
-        //   href: '/info',
-        // },
-        // {
-        //   label: t('IFO'),
-        //   href: '/ifo',
-        // },
-        // {
-        //   label: t('Voting'),
-        //   href: '/voting',
-        // },
+        {
+          label: t('Info'),
+          href: '/info',
+          disabled: true,
+          status: { text: t('Mainnet'), color: 'warning' },
+        },
+        {
+          label: t('IDO'),
+          href: '/ifo',
+          disabled: true,
+          status: { text: t('Mainnet'), color: 'warning' },
+        },
+        {
+          label: t('Voting'),
+          href: '/voting',
+          disabled: true,
+          status: { text: t('Mainnet'), color: 'warning' },
+        },
         {
           type: DropdownMenuItemType.DIVIDER,
         },
@@ -167,7 +183,7 @@ const config: (
           href: 'https://shadow-11.gitbook.io/shadowswap/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-      ],
+      ].map((item) => addMenuItemSupported(item, chainId)),
     },
   ].filter((item) => filterItemBySupportChainId(item, chainId))
 

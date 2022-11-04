@@ -20,7 +20,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'ETH', alt: t('ETH token') },
       { src: 'BTC', alt: t('BTC token') },
-      { src: 'USD1', alt: t('USD1 token') },
+      { src: 'Core3D', alt: t('Core token') },
     ],
   },
 })
@@ -63,14 +63,14 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   },
   images: {
     path: '/images/home/earn/',
-    attributes: [{ src: 'shadowearn', alt: t('Shadow with shdw token') }],
+    attributes: [{ src: 'shdwearn', alt: t('Shadow with shdw token') }],
   },
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Cast Your Shadow on your Finances.'),
   bodyText: t(
-    'Shadow token is at the heart of the ShadowSwap ecosystem. Buy it, win it, farm it, spend it, stake it, or even vote with it!',
+    'Shadow token is at the heart of the Shadow ecosystem. Buy it, win it, farm it, spend it, stake it, or even vote with it!',
   ),
   reverse: false,
   primaryButton: {
@@ -89,7 +89,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     attributes: [
       { src: 'star-bottom-right', alt: t('Small 3d star') },
       { src: 'star-top-right', alt: t('Small 3d star') },
-      { src: 'shdwcoin', alt: t('SHDW token') },
+      { src: 'SHDW3D', alt: t('SHDW token') },
       { src: 'star-top-left', alt: t('Small 3d star') },
     ],
   },

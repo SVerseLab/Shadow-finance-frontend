@@ -1,3 +1,4 @@
-import Voting from '../../views/Voting'
+import NotFound from 'views/NotFound'
+// import Voting from '../../views/Voting'
 
-export default Voting
+export default NotFound

@@ -1,3 +1,4 @@
+import NotFound from 'views/NotFound'
 import { InfoPageLayout } from 'views/Info'
 import Overview from 'views/Info/Overview'
 
@@ -7,4 +8,4 @@ const InfoPage = () => {
 
 InfoPage.Layout = InfoPageLayout
 
-export default InfoPage
+export default NotFound
