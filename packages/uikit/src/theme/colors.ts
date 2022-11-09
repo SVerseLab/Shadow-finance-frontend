@@ -34,10 +34,10 @@ export const lightColors: Colors = {
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
   text: "#280D5F",
-  textDisabled: "#6c6e7e",
-  textSubtle: "#000000",
+  textDisabled: "#BDC2C4",
+  textSubtle: "#7A6EAA",
   disabled: "#7A6EAA",
-  backgroundImage: `url(https://raw.githubusercontent.com/SVerseLab/images/master/BG_EDITTED.png)`,
+  backgroundImage: `url(https://raw.githubusercontent.com/SVerseLab/images/master/Whitethin.png)`,
   boxbackgroundImage: `url(https://raw.githubusercontent.com/SVerseLab/images/master/longbox.png)`,
   shdwback: "000000",
   gradients: {
